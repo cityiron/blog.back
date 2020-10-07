@@ -87,7 +87,7 @@ mysql> show master status;
 
 ## binlog不在了，如何补救？
 
-阿里云会把binlog保存到OSS，从OSS下载回来binlog，然后把binlog设置到MySQL指定位置。这块有任何问题可以提工单，毕竟顾客是“上帝”
+阿里云会把binlog保存到OSS，从OSS下载回来binlog，然后把binlog设置到MySQL指定位置（这块可能是我脑补的）。这块有任何问题可以提工单，毕竟顾客是“上帝”。
 
 本机位置是：
 ```
